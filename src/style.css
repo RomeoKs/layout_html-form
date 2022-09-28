@@ -1,1 +1,17 @@
 /* styles go here */
+.form-field {
+  display: block;
+
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  padding: 1px 3px;
+}
